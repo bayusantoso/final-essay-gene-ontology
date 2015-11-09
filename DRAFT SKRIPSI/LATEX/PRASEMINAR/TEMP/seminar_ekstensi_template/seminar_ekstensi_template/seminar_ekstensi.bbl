@@ -1,0 +1,821 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{}
+    \entry{ANTONIOUG2008}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=438c55f7b07c58335993f45d4fdc7e20}{Antoniou}{A\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3795d8e8e262f6e7bdaa31079f6ee3c3}{Hermalen}{H\bibinitperiod}{F}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=438c55f7b07c58335993f45d4fdc7e20}{Antoniou}{A\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3795d8e8e262f6e7bdaa31079f6ee3c3}{Hermalen}{H\bibinitperiod}{F}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge (GB): The MIT Pr}%
+      }
+      \strng{namehash}{910d799a3f0c4520920608686c5b2f6f}
+      \strng{fullhash}{910d799a3f0c4520920608686c5b2f6f}
+      \field{sortinit}{A}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A Semantic Web Primer, Second edition}
+      \field{title}{A Semantic Web Primer, Second edition}
+      \field{year}{2008}
+    \endentry
+    \entry{ASHBURNERM2000}{book}{}
+      \name{labelname}{20}{}{%
+        {{uniquename=0,hash=c81eebe803c1b2a7cac991c00026b0c6}{Ashburner}{A\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e72784089450e55f3037d0666c99453}{Ball}{B\bibinitperiod}{CA}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=32bc36dfcce625884e1c34bca5ecdb93}{Blake}{B\bibinitperiod}{JA}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=242d9f60e4717ffebea5cc6f504f3ce2}{Botstein}{B\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=57b5f763a0ec9642645690ae17a48d77}{Butler}{B\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=93feaa7b3b30edf2f20f57d1f7a6aa86}{Cherry}{C\bibinitperiod}{JM}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3bdc80bf2292dad9c5ee159e7259e590}{Davis}{D\bibinitperiod}{AP}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b4708319e9c11c324c761060ff6dcc2c}{Dolinski}{D\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a9d79a42ea0910e9122dba5fa2cb7758}{Dwight3}{D\bibinitperiod}{SS}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f483bab4c7ed3cc2deae65b59891f331}{Eppig}{E\bibinitperiod}{JT}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30656a55e03929aabf0d383142b3b524}{Harris}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f375194937f37455439bfdf7b9213d4}{Hill}{H\bibinitperiod}{DP}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159ce79d86377dd3e431ceb0a82da51c}{Tarver}{T\bibinitperiod}{LI}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6048708c92d0c0d2eff5a36f4f324f06}{Kasarskis}{K\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=778ea906680ea69d22dc941ec4fee1f7}{Lewis}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de6a16ef1125653d68091499be1f6db4}{Matese}{M\bibinitperiod}{JC}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27545629ab52ef8264a3bf9a6d5315c5}{Richardson}{R\bibinitperiod}{JE}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e7a305540323cbc5d60138fc75dea19}{Ringwald}{R\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=acbc8597912b0e94ef8dcf9b2192f682}{Rubin}{R\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2db24bf04e2b0000d49969e5bd59c154}{Sherlock}{S\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{20}{}{%
+        {{uniquename=0,hash=c81eebe803c1b2a7cac991c00026b0c6}{Ashburner}{A\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e72784089450e55f3037d0666c99453}{Ball}{B\bibinitperiod}{CA}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=32bc36dfcce625884e1c34bca5ecdb93}{Blake}{B\bibinitperiod}{JA}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=242d9f60e4717ffebea5cc6f504f3ce2}{Botstein}{B\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=57b5f763a0ec9642645690ae17a48d77}{Butler}{B\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=93feaa7b3b30edf2f20f57d1f7a6aa86}{Cherry}{C\bibinitperiod}{JM}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3bdc80bf2292dad9c5ee159e7259e590}{Davis}{D\bibinitperiod}{AP}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b4708319e9c11c324c761060ff6dcc2c}{Dolinski}{D\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a9d79a42ea0910e9122dba5fa2cb7758}{Dwight3}{D\bibinitperiod}{SS}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f483bab4c7ed3cc2deae65b59891f331}{Eppig}{E\bibinitperiod}{JT}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30656a55e03929aabf0d383142b3b524}{Harris}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f375194937f37455439bfdf7b9213d4}{Hill}{H\bibinitperiod}{DP}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159ce79d86377dd3e431ceb0a82da51c}{Tarver}{T\bibinitperiod}{LI}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6048708c92d0c0d2eff5a36f4f324f06}{Kasarskis}{K\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=778ea906680ea69d22dc941ec4fee1f7}{Lewis}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de6a16ef1125653d68091499be1f6db4}{Matese}{M\bibinitperiod}{JC}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27545629ab52ef8264a3bf9a6d5315c5}{Richardson}{R\bibinitperiod}{JE}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e7a305540323cbc5d60138fc75dea19}{Ringwald}{R\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=acbc8597912b0e94ef8dcf9b2192f682}{Rubin}{R\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2db24bf04e2b0000d49969e5bd59c154}{Sherlock}{S\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {California (US): Stanford University School of Medicine}%
+      }
+      \strng{namehash}{880e3eaeef85f45fb66a9a9a2ec93e24}
+      \strng{fullhash}{fa2121ffa6defaef79746dbc042ace61}
+      \field{sortinit}{A}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Gene ontology: tool for the unification of biology}
+      \field{title}{Gene ontology: tool for the unification of biology}
+      \field{year}{2000}
+    \endentry
+    \entry{BAPPENAS2003}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=67f32da9bdb354986a52602d8a661518}{Bappenas}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=67f32da9bdb354986a52602d8a661518}{Bappenas}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jakarta (ID): Bappenas}%
+      }
+      \strng{namehash}{67f32da9bdb354986a52602d8a661518}
+      \strng{fullhash}{67f32da9bdb354986a52602d8a661518}
+      \field{sortinit}{B}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Indonesia Biodiversity and Action Plan 2003-2020}
+      \field{title}{Indonesia Biodiversity and Action Plan 2003-2020}
+      \field{year}{2003}
+    \endentry
+    \entry{DILECCE2008}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e49b53a173f17f389b617edbb8922875}{DiLecce\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{Calabrese\bibnamedelima M}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=e49b53a173f17f389b617edbb8922875}{DiLecce\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{Calabrese\bibnamedelima M}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Viena (AUT)}%
+      }
+      \strng{namehash}{e49b53a173f17f389b617edbb8922875}
+      \strng{fullhash}{e49b53a173f17f389b617edbb8922875}
+      \field{sortinit}{D}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{LOF: Identifying Density-Based Local Outliers}
+      \field{eventtitle}{Taxonomies and Ontologies in Web Semantic Applications: the New Emerging Semantic Lexicon-Based Model}
+      \field{title}{LOF: Identifying Density-Based Local Outliers}
+      \field{volume}{CIMCA International Conference, IEEE. 277-283}
+      \field{year}{2008}
+      \warn{\item Datamodel: Entry 'DILECCE2008' (pustaka.bib): Invalid format '2008-10/12' of date field 'eventdate' - ignoring}
+    \endentry
+    \entry{DINGL2005}{proceedings}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=a8472d81eba2cea3b3e67d5f3f39cddf}{Ding}{D\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=214f2d1af2021554d4c486eb23f0d2f7}{T}{T\bibinitperiod}{Finin}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0977c03f5c32e03e8568050b4062673b}{A}{A\bibinitperiod}{Joshi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03386638e413a88eaf7c5a9ac1d959c5}{Y}{Y\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69e017064d741cce48ba7ed11b218ca3}{R}{R\bibinitperiod}{Pan}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b18120b3f0f599bfb0a6914286650483}{P}{P\bibinitperiod}{Reddivari}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{6}{}{%
+        {{uniquename=0,hash=a8472d81eba2cea3b3e67d5f3f39cddf}{Ding}{D\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=214f2d1af2021554d4c486eb23f0d2f7}{T}{T\bibinitperiod}{Finin}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0977c03f5c32e03e8568050b4062673b}{A}{A\bibinitperiod}{Joshi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03386638e413a88eaf7c5a9ac1d959c5}{Y}{Y\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69e017064d741cce48ba7ed11b218ca3}{R}{R\bibinitperiod}{Pan}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b18120b3f0f599bfb0a6914286650483}{P}{P\bibinitperiod}{Reddivari}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c2b4b51acf18a37cc70cfaefc5b71e28}
+      \strng{fullhash}{c07e3060e0e4e498c678a8b006415cca}
+      \field{sortinit}{D}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Search on The Semantic Web}
+      \field{eventtitle}{Computer Society, IEEE. 38(10):62-69}
+      \field{title}{Search on The Semantic Web}
+      \field{year}{2005}
+    \endentry
+    \entry{FAROOQA2010}{proceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=79a31c21f46b0915e4810b960212a4fb}{Farooq}{F\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd5b2765628d95eda339ce9ee20679a3}{Ahsan}{A\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=820aecf69d00cfda88f43ae0b5daaafa}{Sha}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{uniquename=0,hash=79a31c21f46b0915e4810b960212a4fb}{Farooq}{F\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd5b2765628d95eda339ce9ee20679a3}{Ahsan}{A\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=820aecf69d00cfda88f43ae0b5daaafa}{Sha}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d964b591d2ba6dae809d72d0406d0c23}
+      \strng{fullhash}{d964b591d2ba6dae809d72d0406d0c23}
+      \field{sortinit}{F}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Engineering Semantic Web Applications by Using Object-Oriented Paradigm}
+      \field{eventtitle}{Journal of Computer Science. 2(6):156-165}
+      \field{title}{Engineering Semantic Web Applications by Using Object-Oriented Paradigm}
+      \field{year}{2010}
+    \endentry
+    \entry{GILLMANE2009}{book}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=e08f8874e9db94b4fd1af31da855d70c}{Gilman}{G\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0f083dca7fa09bb160015391cedf3241}{King}{K\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c312ebddcb68f365648cf6ac63f88e05}{Peterson}{P\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7197a7c6390b4c387397b4e95eb1b09}{Chavan}{C\bibinitperiod}{V}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0718a71879e12d8f1cb83f874573ec83}{Hahn}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=e08f8874e9db94b4fd1af31da855d70c}{Gilman}{G\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0f083dca7fa09bb160015391cedf3241}{King}{K\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c312ebddcb68f365648cf6ac63f88e05}{Peterson}{P\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7197a7c6390b4c387397b4e95eb1b09}{Chavan}{C\bibinitperiod}{V}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0718a71879e12d8f1cb83f874573ec83}{Hahn}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Graz (AT): Graz University of Technology}%
+      }
+      \strng{namehash}{eaa8796b8d191689d6a79fb499fb3c2f}
+      \strng{fullhash}{3d4a1fbf51ef5fc56386b8021dffd02d}
+      \field{sortinit}{G}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Building The Biodiversity Data Commons The Global Biodiversity Information Facility}
+      \field{title}{Building The Biodiversity Data Commons The Global Biodiversity Information Facility}
+      \field{year}{2009}
+    \endentry
+    \entry{GURALNICK2009}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=5437c221bc75d109bebc9b2b43f73220}{Guralnick}{G\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e2b5bf528e9d001acddf4e8ad46993e3}{Hill}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5437c221bc75d109bebc9b2b43f73220}{Guralnick}{G\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e2b5bf528e9d001acddf4e8ad46993e3}{Hill}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Boulder (CO): Department of Ecology}%
+        {Evolutionary Biology University of Colorado}%
+      }
+      \strng{namehash}{9a29656d611938085cff15767e65dd02}
+      \strng{fullhash}{9a29656d611938085cff15767e65dd02}
+      \field{sortinit}{G}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Biodiversity Informatics: Automated Approaches for Documenting Global Biodiversity Patterns and Processes}
+      \field{title}{Biodiversity Informatics: Automated Approaches for Documenting Global Biodiversity Patterns and Processes}
+      \field{year}{2008}
+    \endentry
+    \entry{HAMZARI2008}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=142b95714c89c9e8f3692caaf3c34d72}{Hamzari}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=142b95714c89c9e8f3692caaf3c34d72}{Hamzari}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{142b95714c89c9e8f3692caaf3c34d72}
+      \strng{fullhash}{142b95714c89c9e8f3692caaf3c34d72}
+      \field{sortinit}{H}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Identifikasi tanaman obat-obatan yang dimanfaatkan oleh masyarakat sekitar hutan Tabo-tabo}
+      \field{eventtitle}{Jurnal Hutan dan Masyarakat. 3(2):159-167}
+      \field{title}{Identifikasi tanaman obat-obatan yang dimanfaatkan oleh masyarakat sekitar hutan Tabo-tabo}
+      \field{year}{2008}
+    \endentry
+    \entry{HEG2010}{proceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=045e99526f6e6ae19af2730516972b9c}{He}{H\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e921d4dd6ad7e03e59c0f2f35a30ad4}{An}{A\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{uniquename=0,hash=045e99526f6e6ae19af2730516972b9c}{He}{H\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e921d4dd6ad7e03e59c0f2f35a30ad4}{An}{A\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0a5ace545359ed62b6e52b8daa7faf3d}
+      \strng{fullhash}{0a5ace545359ed62b6e52b8daa7faf3d}
+      \field{sortinit}{H}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Ontology Language OWL Research Study}
+      \field{eventtitle}{MASS International Conference, IEEE. 1-4}
+      \field{title}{Ontology Language OWL Research Study}
+      \field{year}{2011}
+    \endentry
+    \entry{HERDIYENI2013}{proceedings}{}
+      \name{labelname}{8}{}{%
+        {{uniquename=0,hash=fe3dc2533b5fc6a0a56a64345a04424e}{Herdiyeni}{H\bibinitperiod}{Y}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da385f609500598c5f3a13c35fc9b872}{EAM}{E\bibinitperiod}{Zuhud}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=54e7617be87abe0841c1a3714464d2ae}{A}{A\bibinitperiod}{Hikmat}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1925983baf6d99665f41b1e9b5bbd415}{AH}{A\bibinitperiod}{Mustari}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e00111b70c719fef906b2f3c95fb467f}{DS}{D\bibinitperiod}{Pravista}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfbd329cd1fe69124f3dc20ea73c8598}{M}{M\bibinitperiod}{Mega}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e3cf540041616ca5c50f628a4ff4f}{R}{R\bibinitperiod}{Setiawan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f441a82cb00d5ac34fa5a71c3b19a69}{AA}{A\bibinitperiod}{Metananda}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{8}{}{%
+        {{uniquename=0,hash=fe3dc2533b5fc6a0a56a64345a04424e}{Herdiyeni}{H\bibinitperiod}{Y}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da385f609500598c5f3a13c35fc9b872}{EAM}{E\bibinitperiod}{Zuhud}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=54e7617be87abe0841c1a3714464d2ae}{A}{A\bibinitperiod}{Hikmat}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1925983baf6d99665f41b1e9b5bbd415}{AH}{A\bibinitperiod}{Mustari}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e00111b70c719fef906b2f3c95fb467f}{DS}{D\bibinitperiod}{Pravista}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfbd329cd1fe69124f3dc20ea73c8598}{M}{M\bibinitperiod}{Mega}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e3cf540041616ca5c50f628a4ff4f}{R}{R\bibinitperiod}{Setiawan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f441a82cb00d5ac34fa5a71c3b19a69}{AA}{A\bibinitperiod}{Metananda}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6123b798854881a12e73dc75328384a0}
+      \strng{fullhash}{710b28d4a2e51a7b922d1d16a4f10e93}
+      \field{sortinit}{H}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{IPB Biodiversity Informatics (IPBiotics) Untuk Pembangunan Berkelanjutan}
+      \field{eventtitle}{Prosiding Seminar Hasil-Hasil PPM IPB 2013. 2: 389–402}
+      \field{title}{IPB Biodiversity Informatics (IPBiotics) Untuk Pembangunan Berkelanjutan}
+      \field{year}{2013}
+    \endentry
+    \entry{JEPSEN2010}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=9bf69d600f55ce81952938d0f6aa2e04}{Jepsen}{J\bibinitperiod}{TC}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=9bf69d600f55ce81952938d0f6aa2e04}{Jepsen}{J\bibinitperiod}{TC}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9bf69d600f55ce81952938d0f6aa2e04}
+      \strng{fullhash}{9bf69d600f55ce81952938d0f6aa2e04}
+      \field{sortinit}{J}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Just What Is an Ontology, Anyway?}
+      \field{eventtitle}{IT professional, IEEE. 11(5):22-27}
+      \field{title}{Just What Is an Ontology, Anyway?}
+      \field{year}{2009}
+    \endentry
+    \entry{LAALLAM2013}{proceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=e8312a43f2d5527ad034e3839f6c0f62}{Laallam}{L\bibinitperiod}{FZ}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=43d2acec1a0010565fe7c6ff50a2b886}{Kherfi}{K\bibinitperiod}{ML}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8c610cbd41af88ab155f458e741ca21d}{Benslimane}{B\bibinitperiod}{SM}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{uniquename=0,hash=e8312a43f2d5527ad034e3839f6c0f62}{Laallam}{L\bibinitperiod}{FZ}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=43d2acec1a0010565fe7c6ff50a2b886}{Kherfi}{K\bibinitperiod}{ML}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8c610cbd41af88ab155f458e741ca21d}{Benslimane}{B\bibinitperiod}{SM}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5f0e93a75e75179459b992eeca8ff815}
+      \strng{fullhash}{5f0e93a75e75179459b992eeca8ff815}
+      \field{sortinit}{L}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Using ontologies to overcoming 	draw-back of database and vice versa: a survey}
+      \field{eventtitle}{CSEIJ. 3(2):1-21}
+      \field{title}{Using ontologies to overcoming 	draw-back of database and vice versa: a survey}
+      \field{year}{2013}
+    \endentry
+    \entry{RAIMBAULT2010}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7c8dcaddd8898e0fe4cc72d07d1fb045}{Raimbault}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=7c8dcaddd8898e0fe4cc72d07d1fb045}{Raimbault}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c8dcaddd8898e0fe4cc72d07d1fb045}
+      \strng{fullhash}{7c8dcaddd8898e0fe4cc72d07d1fb045}
+      \field{sortinit}{R}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Overviewing the RDF(S) semantic web}
+      \field{eventtitle}{CiSE International Conference, IEEE. 1-4}
+      \field{title}{Overviewing the RDF(S) semantic web}
+      \field{year}{2010}
+    \endentry
+    \entry{SEGARAB2009}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b2a81a9c2ec4ac9ac34850f33d57fce8}{Segaran}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c35cf3d3d590d3630cf2e740f75161e6}{C}{C\bibinitperiod}{Evans}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b296ed6901d319a573563a8d9850ecfa}{J}{J\bibinitperiod}{Taylor}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b2a81a9c2ec4ac9ac34850f33d57fce8}{Segaran}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c35cf3d3d590d3630cf2e740f75161e6}{C}{C\bibinitperiod}{Evans}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b296ed6901d319a573563a8d9850ecfa}{J}{J\bibinitperiod}{Taylor}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York(US): O’Reilly}%
+      }
+      \strng{namehash}{44edab9b32a1141abfe73b9e3656b337}
+      \strng{fullhash}{44edab9b32a1141abfe73b9e3656b337}
+      \field{sortinit}{S}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Programming the semantic web}
+      \field{title}{Programming the semantic web}
+      \field{year}{2009}
+    \endentry
+    \entry{VADIVU2012}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=928be54c400f957131f129f117a18e98}{Vadivu\bibnamedelima G}{V\bibinitperiod\bibinitdelim G\bibinitperiod}{Hopper\bibnamedelima SW}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=928be54c400f957131f129f117a18e98}{Vadivu\bibnamedelima G}{V\bibinitperiod\bibinitdelim G\bibinitperiod}{Hopper\bibnamedelima SW}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{928be54c400f957131f129f117a18e98}
+      \strng{fullhash}{928be54c400f957131f129f117a18e98}
+      \field{sortinit}{V}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Ontology mapping of indian medicinal plants with standardized medical terms}
+      \field{eventtitle}{Journal of Computer Science. 8(9):1576-1584}
+      \field{title}{Ontology mapping of indian medicinal plants with standardized medical terms}
+      \field{year}{2012}
+    \endentry
+    \entry{ZUHUD2008}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6fa62415835a996c7c86d6c7581bd6af}{Zuhud}{Z\bibinitperiod}{EAM}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6fa62415835a996c7c86d6c7581bd6af}{Zuhud}{Z\bibinitperiod}{EAM}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Bogor(ID). Fakultas Kehutanan IPB}%
+      }
+      \strng{namehash}{6fa62415835a996c7c86d6c7581bd6af}
+      \strng{fullhash}{6fa62415835a996c7c86d6c7581bd6af}
+      \field{sortinit}{Z}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Potensi hutan tropika indonesia sebagai penyangga bahan obat alam untuk kesehatan bangsa}
+      \field{title}{Potensi hutan tropika indonesia sebagai penyangga bahan obat alam untuk kesehatan bangsa}
+      \field{year}{2008}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{nyt}
+    \entry{ANTONIOUG2008}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=438c55f7b07c58335993f45d4fdc7e20}{Antoniou}{A\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3795d8e8e262f6e7bdaa31079f6ee3c3}{Hermalen}{H\bibinitperiod}{F}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=438c55f7b07c58335993f45d4fdc7e20}{Antoniou}{A\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3795d8e8e262f6e7bdaa31079f6ee3c3}{Hermalen}{H\bibinitperiod}{F}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge (GB): The MIT Pr}%
+      }
+      \strng{namehash}{910d799a3f0c4520920608686c5b2f6f}
+      \strng{fullhash}{910d799a3f0c4520920608686c5b2f6f}
+      \field{sortinit}{A}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A Semantic Web Primer, Second edition}
+      \field{title}{A Semantic Web Primer, Second edition}
+      \field{year}{2008}
+    \endentry
+    \entry{ASHBURNERM2000}{book}{}
+      \name{labelname}{20}{}{%
+        {{uniquename=0,hash=c81eebe803c1b2a7cac991c00026b0c6}{Ashburner}{A\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e72784089450e55f3037d0666c99453}{Ball}{B\bibinitperiod}{CA}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=32bc36dfcce625884e1c34bca5ecdb93}{Blake}{B\bibinitperiod}{JA}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=242d9f60e4717ffebea5cc6f504f3ce2}{Botstein}{B\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=57b5f763a0ec9642645690ae17a48d77}{Butler}{B\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=93feaa7b3b30edf2f20f57d1f7a6aa86}{Cherry}{C\bibinitperiod}{JM}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3bdc80bf2292dad9c5ee159e7259e590}{Davis}{D\bibinitperiod}{AP}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b4708319e9c11c324c761060ff6dcc2c}{Dolinski}{D\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a9d79a42ea0910e9122dba5fa2cb7758}{Dwight3}{D\bibinitperiod}{SS}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f483bab4c7ed3cc2deae65b59891f331}{Eppig}{E\bibinitperiod}{JT}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30656a55e03929aabf0d383142b3b524}{Harris}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f375194937f37455439bfdf7b9213d4}{Hill}{H\bibinitperiod}{DP}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159ce79d86377dd3e431ceb0a82da51c}{Tarver}{T\bibinitperiod}{LI}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6048708c92d0c0d2eff5a36f4f324f06}{Kasarskis}{K\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=778ea906680ea69d22dc941ec4fee1f7}{Lewis}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de6a16ef1125653d68091499be1f6db4}{Matese}{M\bibinitperiod}{JC}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27545629ab52ef8264a3bf9a6d5315c5}{Richardson}{R\bibinitperiod}{JE}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e7a305540323cbc5d60138fc75dea19}{Ringwald}{R\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=acbc8597912b0e94ef8dcf9b2192f682}{Rubin}{R\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2db24bf04e2b0000d49969e5bd59c154}{Sherlock}{S\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{20}{}{%
+        {{uniquename=0,hash=c81eebe803c1b2a7cac991c00026b0c6}{Ashburner}{A\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6e72784089450e55f3037d0666c99453}{Ball}{B\bibinitperiod}{CA}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=32bc36dfcce625884e1c34bca5ecdb93}{Blake}{B\bibinitperiod}{JA}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=242d9f60e4717ffebea5cc6f504f3ce2}{Botstein}{B\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=57b5f763a0ec9642645690ae17a48d77}{Butler}{B\bibinitperiod}{H}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=93feaa7b3b30edf2f20f57d1f7a6aa86}{Cherry}{C\bibinitperiod}{JM}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3bdc80bf2292dad9c5ee159e7259e590}{Davis}{D\bibinitperiod}{AP}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b4708319e9c11c324c761060ff6dcc2c}{Dolinski}{D\bibinitperiod}{K}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a9d79a42ea0910e9122dba5fa2cb7758}{Dwight3}{D\bibinitperiod}{SS}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f483bab4c7ed3cc2deae65b59891f331}{Eppig}{E\bibinitperiod}{JT}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=30656a55e03929aabf0d383142b3b524}{Harris}{H\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f375194937f37455439bfdf7b9213d4}{Hill}{H\bibinitperiod}{DP}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=159ce79d86377dd3e431ceb0a82da51c}{Tarver}{T\bibinitperiod}{LI}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6048708c92d0c0d2eff5a36f4f324f06}{Kasarskis}{K\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=778ea906680ea69d22dc941ec4fee1f7}{Lewis}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=de6a16ef1125653d68091499be1f6db4}{Matese}{M\bibinitperiod}{JC}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=27545629ab52ef8264a3bf9a6d5315c5}{Richardson}{R\bibinitperiod}{JE}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e7a305540323cbc5d60138fc75dea19}{Ringwald}{R\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=acbc8597912b0e94ef8dcf9b2192f682}{Rubin}{R\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2db24bf04e2b0000d49969e5bd59c154}{Sherlock}{S\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {California (US): Stanford University School of Medicine}%
+      }
+      \strng{namehash}{880e3eaeef85f45fb66a9a9a2ec93e24}
+      \strng{fullhash}{fa2121ffa6defaef79746dbc042ace61}
+      \field{sortinit}{A}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Gene ontology: tool for the unification of biology}
+      \field{title}{Gene ontology: tool for the unification of biology}
+      \field{year}{2000}
+    \endentry
+    \entry{BAPPENAS2003}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=67f32da9bdb354986a52602d8a661518}{Bappenas}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=67f32da9bdb354986a52602d8a661518}{Bappenas}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Jakarta (ID): Bappenas}%
+      }
+      \strng{namehash}{67f32da9bdb354986a52602d8a661518}
+      \strng{fullhash}{67f32da9bdb354986a52602d8a661518}
+      \field{sortinit}{B}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Indonesia Biodiversity and Action Plan 2003-2020}
+      \field{title}{Indonesia Biodiversity and Action Plan 2003-2020}
+      \field{year}{2003}
+    \endentry
+    \entry{DILECCE2008}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e49b53a173f17f389b617edbb8922875}{DiLecce\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{Calabrese\bibnamedelima M}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=e49b53a173f17f389b617edbb8922875}{DiLecce\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{Calabrese\bibnamedelima M}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Viena (AUT)}%
+      }
+      \strng{namehash}{e49b53a173f17f389b617edbb8922875}
+      \strng{fullhash}{e49b53a173f17f389b617edbb8922875}
+      \field{sortinit}{D}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{LOF: Identifying Density-Based Local Outliers}
+      \field{eventtitle}{Taxonomies and Ontologies in Web Semantic Applications: the New Emerging Semantic Lexicon-Based Model}
+      \field{title}{LOF: Identifying Density-Based Local Outliers}
+      \field{volume}{CIMCA International Conference, IEEE. 277-283}
+      \field{year}{2008}
+      \warn{\item Datamodel: Entry 'DILECCE2008' (pustaka.bib): Invalid format '2008-10/12' of date field 'eventdate' - ignoring}
+    \endentry
+    \entry{DINGL2005}{proceedings}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=a8472d81eba2cea3b3e67d5f3f39cddf}{Ding}{D\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=214f2d1af2021554d4c486eb23f0d2f7}{T}{T\bibinitperiod}{Finin}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0977c03f5c32e03e8568050b4062673b}{A}{A\bibinitperiod}{Joshi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03386638e413a88eaf7c5a9ac1d959c5}{Y}{Y\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69e017064d741cce48ba7ed11b218ca3}{R}{R\bibinitperiod}{Pan}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b18120b3f0f599bfb0a6914286650483}{P}{P\bibinitperiod}{Reddivari}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{6}{}{%
+        {{uniquename=0,hash=a8472d81eba2cea3b3e67d5f3f39cddf}{Ding}{D\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=214f2d1af2021554d4c486eb23f0d2f7}{T}{T\bibinitperiod}{Finin}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0977c03f5c32e03e8568050b4062673b}{A}{A\bibinitperiod}{Joshi}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=03386638e413a88eaf7c5a9ac1d959c5}{Y}{Y\bibinitperiod}{Peng}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69e017064d741cce48ba7ed11b218ca3}{R}{R\bibinitperiod}{Pan}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b18120b3f0f599bfb0a6914286650483}{P}{P\bibinitperiod}{Reddivari}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c2b4b51acf18a37cc70cfaefc5b71e28}
+      \strng{fullhash}{c07e3060e0e4e498c678a8b006415cca}
+      \field{sortinit}{D}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Search on The Semantic Web}
+      \field{eventtitle}{Computer Society, IEEE. 38(10):62-69}
+      \field{title}{Search on The Semantic Web}
+      \field{year}{2005}
+    \endentry
+    \entry{FAROOQA2010}{proceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=79a31c21f46b0915e4810b960212a4fb}{Farooq}{F\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd5b2765628d95eda339ce9ee20679a3}{Ahsan}{A\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=820aecf69d00cfda88f43ae0b5daaafa}{Sha}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{uniquename=0,hash=79a31c21f46b0915e4810b960212a4fb}{Farooq}{F\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cd5b2765628d95eda339ce9ee20679a3}{Ahsan}{A\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=820aecf69d00cfda88f43ae0b5daaafa}{Sha}{S\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d964b591d2ba6dae809d72d0406d0c23}
+      \strng{fullhash}{d964b591d2ba6dae809d72d0406d0c23}
+      \field{sortinit}{F}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Engineering Semantic Web Applications by Using Object-Oriented Paradigm}
+      \field{eventtitle}{Journal of Computer Science. 2(6):156-165}
+      \field{title}{Engineering Semantic Web Applications by Using Object-Oriented Paradigm}
+      \field{year}{2010}
+    \endentry
+    \entry{GILLMANE2009}{book}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=e08f8874e9db94b4fd1af31da855d70c}{Gilman}{G\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0f083dca7fa09bb160015391cedf3241}{King}{K\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c312ebddcb68f365648cf6ac63f88e05}{Peterson}{P\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7197a7c6390b4c387397b4e95eb1b09}{Chavan}{C\bibinitperiod}{V}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0718a71879e12d8f1cb83f874573ec83}{Hahn}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=e08f8874e9db94b4fd1af31da855d70c}{Gilman}{G\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0f083dca7fa09bb160015391cedf3241}{King}{K\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c312ebddcb68f365648cf6ac63f88e05}{Peterson}{P\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f7197a7c6390b4c387397b4e95eb1b09}{Chavan}{C\bibinitperiod}{V}{V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0718a71879e12d8f1cb83f874573ec83}{Hahn}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Graz (AT): Graz University of Technology}%
+      }
+      \strng{namehash}{eaa8796b8d191689d6a79fb499fb3c2f}
+      \strng{fullhash}{3d4a1fbf51ef5fc56386b8021dffd02d}
+      \field{sortinit}{G}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Building The Biodiversity Data Commons The Global Biodiversity Information Facility}
+      \field{title}{Building The Biodiversity Data Commons The Global Biodiversity Information Facility}
+      \field{year}{2009}
+    \endentry
+    \entry{GURALNICK2009}{book}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=5437c221bc75d109bebc9b2b43f73220}{Guralnick}{G\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e2b5bf528e9d001acddf4e8ad46993e3}{Hill}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5437c221bc75d109bebc9b2b43f73220}{Guralnick}{G\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e2b5bf528e9d001acddf4e8ad46993e3}{Hill}{H\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Boulder (CO): Department of Ecology}%
+        {Evolutionary Biology University of Colorado}%
+      }
+      \strng{namehash}{9a29656d611938085cff15767e65dd02}
+      \strng{fullhash}{9a29656d611938085cff15767e65dd02}
+      \field{sortinit}{G}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Biodiversity Informatics: Automated Approaches for Documenting Global Biodiversity Patterns and Processes}
+      \field{title}{Biodiversity Informatics: Automated Approaches for Documenting Global Biodiversity Patterns and Processes}
+      \field{year}{2008}
+    \endentry
+    \entry{HAMZARI2008}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=142b95714c89c9e8f3692caaf3c34d72}{Hamzari}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=142b95714c89c9e8f3692caaf3c34d72}{Hamzari}{H\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{142b95714c89c9e8f3692caaf3c34d72}
+      \strng{fullhash}{142b95714c89c9e8f3692caaf3c34d72}
+      \field{sortinit}{H}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Identifikasi tanaman obat-obatan yang dimanfaatkan oleh masyarakat sekitar hutan Tabo-tabo}
+      \field{eventtitle}{Jurnal Hutan dan Masyarakat. 3(2):159-167}
+      \field{title}{Identifikasi tanaman obat-obatan yang dimanfaatkan oleh masyarakat sekitar hutan Tabo-tabo}
+      \field{year}{2008}
+    \endentry
+    \entry{HEG2010}{proceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=045e99526f6e6ae19af2730516972b9c}{He}{H\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e921d4dd6ad7e03e59c0f2f35a30ad4}{An}{A\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{uniquename=0,hash=045e99526f6e6ae19af2730516972b9c}{He}{H\bibinitperiod}{G}{G\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4e921d4dd6ad7e03e59c0f2f35a30ad4}{An}{A\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0a5ace545359ed62b6e52b8daa7faf3d}
+      \strng{fullhash}{0a5ace545359ed62b6e52b8daa7faf3d}
+      \field{sortinit}{H}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Ontology Language OWL Research Study}
+      \field{eventtitle}{MASS International Conference, IEEE. 1-4}
+      \field{title}{Ontology Language OWL Research Study}
+      \field{year}{2011}
+    \endentry
+    \entry{HERDIYENI2013}{proceedings}{}
+      \name{labelname}{8}{}{%
+        {{uniquename=0,hash=fe3dc2533b5fc6a0a56a64345a04424e}{Herdiyeni}{H\bibinitperiod}{Y}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da385f609500598c5f3a13c35fc9b872}{EAM}{E\bibinitperiod}{Zuhud}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=54e7617be87abe0841c1a3714464d2ae}{A}{A\bibinitperiod}{Hikmat}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1925983baf6d99665f41b1e9b5bbd415}{AH}{A\bibinitperiod}{Mustari}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e00111b70c719fef906b2f3c95fb467f}{DS}{D\bibinitperiod}{Pravista}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfbd329cd1fe69124f3dc20ea73c8598}{M}{M\bibinitperiod}{Mega}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e3cf540041616ca5c50f628a4ff4f}{R}{R\bibinitperiod}{Setiawan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f441a82cb00d5ac34fa5a71c3b19a69}{AA}{A\bibinitperiod}{Metananda}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{8}{}{%
+        {{uniquename=0,hash=fe3dc2533b5fc6a0a56a64345a04424e}{Herdiyeni}{H\bibinitperiod}{Y}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da385f609500598c5f3a13c35fc9b872}{EAM}{E\bibinitperiod}{Zuhud}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=54e7617be87abe0841c1a3714464d2ae}{A}{A\bibinitperiod}{Hikmat}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1925983baf6d99665f41b1e9b5bbd415}{AH}{A\bibinitperiod}{Mustari}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e00111b70c719fef906b2f3c95fb467f}{DS}{D\bibinitperiod}{Pravista}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cfbd329cd1fe69124f3dc20ea73c8598}{M}{M\bibinitperiod}{Mega}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e3cf540041616ca5c50f628a4ff4f}{R}{R\bibinitperiod}{Setiawan}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f441a82cb00d5ac34fa5a71c3b19a69}{AA}{A\bibinitperiod}{Metananda}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6123b798854881a12e73dc75328384a0}
+      \strng{fullhash}{710b28d4a2e51a7b922d1d16a4f10e93}
+      \field{sortinit}{H}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{IPB Biodiversity Informatics (IPBiotics) Untuk Pembangunan Berkelanjutan}
+      \field{eventtitle}{Prosiding Seminar Hasil-Hasil PPM IPB 2013. 2: 389–402}
+      \field{title}{IPB Biodiversity Informatics (IPBiotics) Untuk Pembangunan Berkelanjutan}
+      \field{year}{2013}
+    \endentry
+    \entry{JEPSEN2010}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=9bf69d600f55ce81952938d0f6aa2e04}{Jepsen}{J\bibinitperiod}{TC}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=9bf69d600f55ce81952938d0f6aa2e04}{Jepsen}{J\bibinitperiod}{TC}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9bf69d600f55ce81952938d0f6aa2e04}
+      \strng{fullhash}{9bf69d600f55ce81952938d0f6aa2e04}
+      \field{sortinit}{J}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Just What Is an Ontology, Anyway?}
+      \field{eventtitle}{IT professional, IEEE. 11(5):22-27}
+      \field{title}{Just What Is an Ontology, Anyway?}
+      \field{year}{2009}
+    \endentry
+    \entry{LAALLAM2013}{proceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=e8312a43f2d5527ad034e3839f6c0f62}{Laallam}{L\bibinitperiod}{FZ}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=43d2acec1a0010565fe7c6ff50a2b886}{Kherfi}{K\bibinitperiod}{ML}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8c610cbd41af88ab155f458e741ca21d}{Benslimane}{B\bibinitperiod}{SM}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{uniquename=0,hash=e8312a43f2d5527ad034e3839f6c0f62}{Laallam}{L\bibinitperiod}{FZ}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=43d2acec1a0010565fe7c6ff50a2b886}{Kherfi}{K\bibinitperiod}{ML}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8c610cbd41af88ab155f458e741ca21d}{Benslimane}{B\bibinitperiod}{SM}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5f0e93a75e75179459b992eeca8ff815}
+      \strng{fullhash}{5f0e93a75e75179459b992eeca8ff815}
+      \field{sortinit}{L}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Using ontologies to overcoming 	draw-back of database and vice versa: a survey}
+      \field{eventtitle}{CSEIJ. 3(2):1-21}
+      \field{title}{Using ontologies to overcoming 	draw-back of database and vice versa: a survey}
+      \field{year}{2013}
+    \endentry
+    \entry{RAIMBAULT2010}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7c8dcaddd8898e0fe4cc72d07d1fb045}{Raimbault}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=7c8dcaddd8898e0fe4cc72d07d1fb045}{Raimbault}{R\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c8dcaddd8898e0fe4cc72d07d1fb045}
+      \strng{fullhash}{7c8dcaddd8898e0fe4cc72d07d1fb045}
+      \field{sortinit}{R}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Overviewing the RDF(S) semantic web}
+      \field{eventtitle}{CiSE International Conference, IEEE. 1-4}
+      \field{title}{Overviewing the RDF(S) semantic web}
+      \field{year}{2010}
+    \endentry
+    \entry{SEGARAB2009}{book}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b2a81a9c2ec4ac9ac34850f33d57fce8}{Segaran}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c35cf3d3d590d3630cf2e740f75161e6}{C}{C\bibinitperiod}{Evans}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b296ed6901d319a573563a8d9850ecfa}{J}{J\bibinitperiod}{Taylor}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b2a81a9c2ec4ac9ac34850f33d57fce8}{Segaran}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c35cf3d3d590d3630cf2e740f75161e6}{C}{C\bibinitperiod}{Evans}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b296ed6901d319a573563a8d9850ecfa}{J}{J\bibinitperiod}{Taylor}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York(US): O’Reilly}%
+      }
+      \strng{namehash}{44edab9b32a1141abfe73b9e3656b337}
+      \strng{fullhash}{44edab9b32a1141abfe73b9e3656b337}
+      \field{sortinit}{S}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Programming the semantic web}
+      \field{title}{Programming the semantic web}
+      \field{year}{2009}
+    \endentry
+    \entry{VADIVU2012}{proceedings}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=928be54c400f957131f129f117a18e98}{Vadivu\bibnamedelima G}{V\bibinitperiod\bibinitdelim G\bibinitperiod}{Hopper\bibnamedelima SW}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=928be54c400f957131f129f117a18e98}{Vadivu\bibnamedelima G}{V\bibinitperiod\bibinitdelim G\bibinitperiod}{Hopper\bibnamedelima SW}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{928be54c400f957131f129f117a18e98}
+      \strng{fullhash}{928be54c400f957131f129f117a18e98}
+      \field{sortinit}{V}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Ontology mapping of indian medicinal plants with standardized medical terms}
+      \field{eventtitle}{Journal of Computer Science. 8(9):1576-1584}
+      \field{title}{Ontology mapping of indian medicinal plants with standardized medical terms}
+      \field{year}{2012}
+    \endentry
+    \entry{ZUHUD2008}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6fa62415835a996c7c86d6c7581bd6af}{Zuhud}{Z\bibinitperiod}{EAM}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6fa62415835a996c7c86d6c7581bd6af}{Zuhud}{Z\bibinitperiod}{EAM}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Bogor(ID). Fakultas Kehutanan IPB}%
+      }
+      \strng{namehash}{6fa62415835a996c7c86d6c7581bd6af}
+      \strng{fullhash}{6fa62415835a996c7c86d6c7581bd6af}
+      \field{sortinit}{Z}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Potensi hutan tropika indonesia sebagai penyangga bahan obat alam untuk kesehatan bangsa}
+      \field{title}{Potensi hutan tropika indonesia sebagai penyangga bahan obat alam untuk kesehatan bangsa}
+      \field{year}{2008}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

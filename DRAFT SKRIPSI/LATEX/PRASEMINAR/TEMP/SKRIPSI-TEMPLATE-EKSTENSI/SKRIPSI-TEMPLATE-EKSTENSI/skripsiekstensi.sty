@@ -1,0 +1,93 @@
+\makeatletter
+\def\@makeschapterhead#1{%
+	%%%%%\vspace*{50\p@}% %%% removed!
+	{\parindent \z@ \raggedright
+		\normalfont
+		\interlinepenalty\@M
+		\centering \Large \bfseries  #1\par\nobreak
+		\vskip 5\p@ \thispagestyle{empty}
+	}}
+\makeatother
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\centering\normalfont\Large\bfseries}}
+\makeatother
+\makeatletter
+\renewcommand\subsection{\@startsection{section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\centering\normalfont\large\bfseries}}
+\makeatother
+\makeatletter
+\renewcommand\subsubsection{\@startsection{section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\normalsize\bfseries}}
+\makeatother
+\makeatletter
+\renewcommand\citename[1] {
+	\citeauthor{#1} (\cite*{#1})
+}
+\makeatother
+\makeatletter
+\newcommand{\bab}[1]{
+   \section*{#1}
+   \addcontentsline{toc}{chapter}{#1}}
+\makeatother
+\makeatletter
+\newcommand{\subbab}[1]{
+	\subsection*{#1}
+	\addcontentsline{toc}{section}{#1}}
+\makeatother
+\makeatletter
+\newcommand{\subsubbab}[1]{
+	\subsubsection*{#1}
+	\addcontentsline{toc}{subsection}{#1}}
+\makeatother
+\makeatletter
+\newcommand{\lampiran}[1]{
+	\renewcommand{\thesection}{\arabic{section}}
+	\refstepcounter{section}
+	\addcontentsline{toc}{section}{{\thesection}. {#1}}
+	\sectionmark{#1} 
+	{\noindent \hangindent=8.2em \large \bfseries Lampiran {\thesection}. {#1} \par }
+}
+\makeatother
+
+\makeatletter
+\def\normaljustify{%
+	\let\\\@centercr\rightskip\z@skip \leftskip\z@skip%
+	\parfillskip=0pt plus 1fil}
+\makeatother
+
+\addto\captionsenglish{% Mengganti istilah "english" dengan bahasa Indonesia
+	\renewcommand{\abstractname}{Abstrak/\textit{Abstract}}
+	\renewcommand{\figurename}{Gambar}
+	\renewcommand{\tablename}{Tabel}  
+	\renewcommand{\contentsname}{DAFTAR ISI}
+	\renewcommand{\listfigurename}{DAFTAR GAMBAR}
+	\renewcommand{\listtablename}{DAFTAR TABEL}
+	\renewcommand\appendixname{Lampiran}
+	\renewcommand\appendixpagename{LAMPIRAN}
+}
+\captionsetup[table]{labelsep=space}
+\captionsetup[figure]{labelsep=space}
+
+%%%%%%%%%%%%
+% PERINTAH TAMBAHAN untuk MENYEDERHANAKAN
+%%%%%%%%%%%%
+\newcommand{\tm}{\textit}
+\newcommand{\tb}{\textbf}
+\newcommand{\tu}{\underline}
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+\def\garis#1{
+	%\vspace{-0.9em}
+	%\noindent %\hspace{\fill}\line(1,0){400}\hspace{\fill}
+	\noindent\rule[0.5ex]{\linewidth}{#1}
+}
+

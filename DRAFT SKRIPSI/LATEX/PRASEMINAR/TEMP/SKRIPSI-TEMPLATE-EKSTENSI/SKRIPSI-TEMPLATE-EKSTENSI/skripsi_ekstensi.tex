@@ -1,0 +1,314 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FILE UTAMA
+% Author: Julio Adisantoso
+%
+% Isi file ini seharusnya tidak banyak diubah
+% kecuali jika ada penambahan file eksternal
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------
+\documentclass[a4paper, 12pt, twoside]{book} % Document font size and equations flushed left
+\input{hype_indonesia}
+\input{skripsi_definisi}
+\input{skripsi_abstrak_id}
+\input{skripsi_abstrak_en}
+\usepackage{mathptmx}
+\usepackage{xcolor,colortbl}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage[hidelinks=true]{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx,xcolor}
+\graphicspath{{gambar/}}
+\usepackage[english]{babel}
+\usepackage{booktabs}
+\usepackage{tabulary}
+\usepackage{algorithm2e}
+\usepackage{caption}
+\usepackage{nameref}
+\usepackage{appendix}
+\usepackage{array, fancyhdr}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\pagestyle{fancy}
+\fancyhead[RO,LE]{\scshape \thepage}
+\fancyhead[LO,RE]{}
+\chead{}
+\cfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2.0ex plus0.5ex minus0.2ex}
+\usepackage{vmargin}
+\setmarginsrb           
+{ 4cm}  % left margin
+{ 0.6in}  % top margin
+{ 3cm}  % right margin
+{ 3cm}  % bottom margin
+{  20pt}  % head height
+{0.25in}  % head sep
+{   9pt}  % foot height
+{ 0.3in}  % foot sep
+\raggedbottom
+
+\usepackage[urldate=comp, backend=biber, style=authoryear, url=true, doi=true, maxbibnames=4, maxcitenames=2, block=none, sorting=nyt]{biblatex}
+\usepackage{xpatch}
+\addbibresource{skripsi_pustaka.bib}
+\DefineBibliographyStrings{english}{%
+	and = {dan}
+}
+\DefineBibliographyStrings{english}{%
+	andothers = {\em et\addabbrvspace al\adddot}
+}
+\renewbibmacro{in:}{
+	\iffieldundef{journaltitle}
+	{}
+	{\xspace dalam:}
+}
+\renewbibmacro*{volume+number+eid}{%
+	\printfield{volume}%
+	%  \setunit*{\adddot}% DELETED
+	\setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+	\printfield{number}%
+	\setunit{\addcomma\space}%
+	\printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat{url}{\printtext{Dapat diunduh dari}\addcolon\space\url{#1}}
+%\DeclareFieldFormat{urldate}{#1}
+\DeclareFieldFormat{urldate}{%
+	\thefield{urlday}\addslash%
+	\thefield{urlmonth}\addslash%
+	\thefield{urlyear}\isdot}
+
+\renewbibmacro*{url+urldate}{%
+	\iffieldundef{urlyear}
+	{}
+	{\setunit*{\addspace}%
+	\printtext{[Internet]. [}%
+	\printtext{Diunduh tanggal}\space%
+	\printurldate\space
+	\printtext{].}\space%
+	\printfield{url}}%
+}
+\nocite{*}
+
+\newcommand{\keywordname}{Kata Kunci} % Defines the keywords heading name
+\newcommand{\blank}[1]{\hspace*{#1}}
+
+\usepackage{skripsiekstensi}
+
+% --------------------------
+% LAYOUT COVER LUAR
+% --------------------------
+\newenvironment{cover}{
+	\thispagestyle{empty}
+	\begin{titlepage}
+		\centering \singlespacing
+		\vskip
+		\setlength{\parskip}{}
+		{\large \bf \JUDUL \par}
+		\vfill
+		\smallskip
+		{\large \bf \NAMA \par}
+		\vfill
+		{\includegraphics[width=100pt]{logoipb.png} \par}
+		\vfill
+		{\small \bf DEPARTEMEN ILMU KOMPUTER \\%
+			FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM \\%
+			INSTITUT PERTANIAN BOGOR \\%
+			BOGOR \\ \tahun \par }
+	\end{titlepage}
+}
+
+% --------------------------
+% LAYOUT PERNYATAAN
+% --------------------------
+\newenvironment{pernyataan}{
+	\thispagestyle{empty}
+	\begin{titlepage}
+		\begin{center}
+			\large \bf PERNYATAAN MENGENAI SKRIPSI DAN SUMBER INFORMASI SERTA\\PELIMPAHAN HAK CIPTA
+		\end{center}
+		{~~~~~Dengan ini saya menyatakan bahwa skripsi berjudul \Judul adalah benar karya saya dengan arahan dari komisi pembimbing dan belum diajukan dalam bentuk apa pun kepada perguruan tinggi mana pun. Sumber informasi yang berasal atau dikutip dari karya yang diterbitkan maupun tidak diterbitkan dari penulis lain telah disebutkan dalam teks dan dicantumkan dalam Daftar Pustaka di bagian akhir skripsi ini. \par}
+		~~~~~Dengan ini saya melimpahkan hak cipta dari karya tulis saya kepada Institut Pertanian Bogor.\\%
+		\\
+		\begin{flushright}
+			Bogor, \bulantahun \\%
+			\Nama \\%
+			\NIM \\%
+		\end{flushright}
+	\end{titlepage}
+}
+
+% --------------------------
+% LAYOUT ABSTRAK
+% --------------------------
+\newenvironment{abstrak}
+{
+	\thispagestyle{empty}
+	\begin{center}
+		{\large \bf ABSTRAK \par}
+	\end{center}
+	{\textbf{\NAMA}. \Judul. Dibawah bimbingan \cetakAbstrak{\jumlahPembimbing} \par}
+	{\small \abstrakid \par}
+	{\small \textbf{Kata kunci}: \katakunciid \par}
+	\bigskip
+	\bigskip
+	\begin{center}
+		{\large \bf ABSTRACT \par}
+	\end{center}
+	{\textbf{\NAMA}. \textit{\Judulen}. \textit{Supervised by}  \cetakAbstrakEN{\jumlahPembimbing} \par}
+	{\small \abstraken \par}
+	{\small \textbf{Keywords}: \katakuncien \par}
+}
+
+% --------------------------
+% LAYOUT COVER DALAM
+% --------------------------
+\newenvironment{coverdalam}{
+	\thispagestyle{empty}
+	\begin{titlepage}
+		\centering \singlespacing
+		\vskip
+		\setlength{\parskip}{}
+		{\large \bf \JUDUL \par}
+		\vfill
+		\smallskip
+		{\large \bf \NAMA \par}
+		\bigskip
+		\bigskip
+		{\normalsize Skripsi\\sebagai salah satu syarat untuk memperoleh gelar\\Sarjana Komputer\\pada\\Departemen Ilmu Komputer \par }
+		\vfill
+		\vfill
+		{\small \bf DEPARTEMEN ILMU KOMPUTER \\%
+			FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM \\%
+			INSTITUT PERTANIAN BOGOR \\%
+			BOGOR \\ \tahun \par }
+	\end{titlepage}
+	\thispagestyle{empty}
+	\vspace*{\fill}
+	{\textbf{Penguji}:}
+	\begin{enumerate}
+		\item \pengujisatu
+		\item \pengujidua
+	\end{enumerate}
+}
+
+% --------------------------
+% LAYOUT HALAMAN PENGESAHAN
+% --------------------------
+\newenvironment{pengesahan}{
+	\thispagestyle{empty}
+	\begin{titlepage}
+		\begin{table*}[h!]
+			\begin{tabular}{l l p{10cm}}
+				Judul Skripsi&:&\Judul \\
+				Nama Mahasiswa&:&\Nama \\
+				NIM&:&\NIM \\
+			\end{tabular}
+		\end{table*}		
+		\vfill
+		{\centering Disetujui oleh \par }
+		\bigskip \bigskip \bigskip \bigskip \bigskip \bigskip \bigskip
+		\ttdpembimbing{\jumlahPembimbing}
+		\vfill
+		{\centering Diketahui oleh \par }
+		\bigskip \bigskip \bigskip \bigskip \bigskip \bigskip \bigskip
+		{\centering \tu{\Kadept}\\Ketua Departemen \par }
+		\vfill
+		{Tanggal Lulus : \par }
+	\end{titlepage}
+	\thispagestyle{empty}
+	{\centering \large \bf PRAKATA \par}
+	\bigskip
+	\input{skripsi_prakata}	
+	\bigskip
+	\begin{flushright}
+		Bogor, \bulantahun \\%
+		~\\%
+		\tm{\Nama} \\%
+	\end{flushright}		
+}
+
+%\lhead{}
+%\chead{}
+%\rhead{}
+%\lfoot{}
+%\cfoot{}
+%\rfoot{}
+%\fancyhf{} % sets both header and footer to nothing
+
+%-------------------------------------------------------
+\begin{document}
+
+	\frontmatter
+	\cover{}
+	\pernyataan{}
+	\abstrak{}
+	\coverdalam{}
+	\pengesahan{}
+	
+	\thispagestyle{empty}
+	\tableofcontents
+	\addtocontents{toc}{~\hfill\textbf{Halaman}\par}
+	\pagebreak
+	\begin{minipage}{1.0\linewidth}
+		\addcontentsline{toc}{chapter}{\listtablename}
+		\listoftables
+		\addcontentsline{toc}{chapter}{\listfigurename}
+		\listoffigures
+	\end{minipage}
+	
+	\mainmatter
+	\setlength{\parskip}{4pt}
+	\setlength\parindent{15pt}
+	\input{skripsi_pendahuluan}
+	\begingroup
+	\let\cleardoublepage\relax
+	\bigskip
+	\bigskip
+	\input{skripsi_metode}
+	\bigskip
+	\bigskip
+	\input{skripsi_hasildanpembahasan}
+	\bigskip
+	\bigskip
+	\input{skripsi_kesimpulansaran}
+	
+	\renewcommand{\bibname}{DAFTAR PUSTAKA}
+	\bigskip
+	\bigskip
+	\xpatchbibmacro{date+extrayear}{%
+			\printtext[parens]%
+		}{%
+		\setunit{\addperiod\space}%
+		\printtext%
+	}{}{}
+	\sloppy
+	\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+	\printbibliography
+
+	\pagebreak
+	\appendix
+	\label{lamp:lampiran}
+	\chaptermark{LAMPIRAN}
+	\addcontentsline{toc}{chapter}{LAMPIRAN}
+	\input{skripsi_lampiran}
+	\input{skripsi_riwayathidup}
+	\endgroup	
+	
+%----------------------------------------------------------------
+\end{document}
