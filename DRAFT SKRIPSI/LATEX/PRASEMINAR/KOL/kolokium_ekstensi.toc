@@ -1,8 +1,0 @@
-\select@language {english}
-\contentsline {section}{PENDAHULUAN}{1}{Doc-Start}
-\contentsline {subsection}{Latar Belakang}{1}{section*.1}
-\contentsline {section}{METODE}{1}{section*.1}
-\contentsline {subsection}{Sub Sub Judul Metode 1}{1}{Item.3}
-\contentsline {subsection}{Sub Sub Judul Metode 2}{1}{Item.3}
-\contentsline {section}{DAFTAR PUSTAKA}{1}{table.caption.4}
-\contentsfinish 
