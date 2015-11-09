@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <form action="resultnew" method="post" name="search">
+            <div class="form-group">
+                {{ form.query(class="form-control input-sm") }}<br />
+                <input type="submit" class="btn btn-default" value="Search" />
+            </div>
+        </form>
+    </div>
+</div>
+<div class="docs-content">
+    {% if model %}
+    <table class="table_list">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Ontology</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% set number = 1 %}
+            {% if model %}
+            {% for row in model %}
+            <tr>
+                <td>{{ number }}</td>
+                <td>
+                    <a href="{{ url_for('.detail', id=row["id"]) }}" target="_blank">
+                        {{ row["id"] }}
+                    </a>
+                </td>
+                <td>{{ row["label"] }}</td>
+                <td>{{ row["aspect"] }}</td>
+                <td>{{ row["synonyms"] }}</td>
+            </tr>
+            {% set number = number + 1 %}
+            {% endfor %}
+            {% endif %}
+        </tbody>
+    </table>
+    {% else %}
+    <h3>Data Not Found</h3>
+    {% endif %}
+
+    {{ checker }}
+
+</div>
+{% endblock %}

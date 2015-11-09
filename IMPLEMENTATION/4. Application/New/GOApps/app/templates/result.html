@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <form action="result" method="post" name="search">
+            <div class="form-group col-md-4">
+                {{ form.query(class="form-control input-sm") }}<br />
+                {{ form.relationship(class="form-control input-sm") }}<br />
+                {{ form.ontology(class="form-control input-sm") }}<br />
+                <input type="submit" class="btn btn-default" value="Search" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <b>Result</b>
+</div>
+<div class="docs-content">
+    {% if result != None %}
+        {% for item in result %}
+            {{ item }} <br />
+        {% endfor %}
+    {% else %}
+    <h3>Data Not Found</h3>
+    {% endif %}
+</div>
+{% endblock %}
