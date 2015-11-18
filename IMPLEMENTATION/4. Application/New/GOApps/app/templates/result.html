@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="row">
-    <div class="col-md-12">
-        <form action="result" method="post" name="search">
-            <div class="form-group col-md-4">
-                {{ form.query(class="form-control input-sm") }}<br />
-                {{ form.relationship(class="form-control input-sm") }}<br />
-                {{ form.ontology(class="form-control input-sm") }}<br />
-                <input type="submit" class="btn btn-default" value="Search" />
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="result" method="post" name="search">
+                    <div class="form-group col-md-4">
+                        {{ form.query(class="form-control input-sm") }}<br />
+                        {{ form.ontology(class="form-control input-sm") }}<br />
+                        <input type="submit" class="btn btn-default" value="Search" />
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
 </div>
 
@@ -33,38 +36,146 @@
             <strong>Detail Not Found</strong>
         {% endif %}
     </div>
-    </div>
-<div>
 </div>
+{% set child = result["children"] %}
+{% set parent = result["parent"] %}
+{% set anccestor = result["anccestor"] %}
+{% set offspring = result["offspring"] %}
 <div class="panel panel-default">
     <div class="panel-heading">
         <strong>Results</strong>
     </div>
     <div class="panel-body">
-        {% set num = 1 %}
-        {% if result|length > 0 %}
-            Found : {{ result|length }} Data(s)<br /><br />
-            {% for items in result %}
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <span class="badge">{{ num }}</span>
-                        {% set num = num + 1 %}
-                    </div>
-                    <div class="panel-body">
-                    {% for item in items %}
-                        <strong>{{ item["key"] }} :</strong><br />
-                        {% if item["value"]|length > 0 %}
-                            {% for value in item["value"] %}
-                                 {{ value }}<br />
-                            {% endfor %}
-                        {% endif %}
-                    {% endfor %}
-                    </div>
+        <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#children" aria-controls="children" role="tab" data-toggle="tab">Childrens</a>
+                </li>
+                <li role="presentation">
+                    <a href="#parent" aria-controls="parent" role="tab" data-toggle="tab">Parents</a>
+                </li>
+                <li role="presentation">
+                    <a href="#anccestor" aria-controls="anccestor" role="tab" data-toggle="tab">Ancesstor</a>
+                </li>
+                <li role="presentation">
+                    <a href="#offspring" aria-controls="offspring" role="tab" data-toggle="tab">Offspring</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="children">
+                    <br />
+                    {% set num = 1 %}
+                    {% if child|length > 0 %}
+                        Found : {{ child|length }} Data(s)<br /><br />
+                        {% for items in child %}
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="badge">{{ num }}</span>
+                                    {% set num = num + 1 %}
+                                </div>
+                                <div class="panel-body">
+                                {% for item in items %}
+                                    <strong>{{ item["key"] }} :</strong><br />
+                                    {% if item["value"]|length > 0 %}
+                                        {% for value in item["value"] %}
+                                             {{ value }}<br />
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <strong>Childrens Data Not Found</strong>
+                    {% endif %}
                 </div>
-            {% endfor %}
-        {% else %}
-            <strong>Results Data Not Found</strong>
-        {% endif %}
+                <div role="tabpanel" class="tab-pane" id="parent">
+                    <br />
+                    {% set num = 1 %}
+                    {% if parent|length > 0 %}
+                        Found : {{ parent|length }} Data(s)<br /><br />
+                        {% for items in parent %}
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="badge">{{ num }}</span>
+                                    {% set num = num + 1 %}
+                                </div>
+                                <div class="panel-body">
+                                {% for item in items %}
+                                    <strong>{{ item["key"] }} :</strong><br />
+                                    {% if item["value"]|length > 0 %}
+                                        {% for value in item["value"] %}
+                                             {{ value }}<br />
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <strong>Parents Data Not Found</strong>
+                    {% endif %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="anccestor">
+                    <br />
+                    {% set num = 1 %}
+                    {% if anccestor|length > 0 %}
+                        Found : {{ anccestor|length }} Data(s)<br /><br />
+                        {% for items in anccestor %}
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="badge">{{ num }}</span>
+                                    {% set num = num + 1 %}
+                                </div>
+                                <div class="panel-body">
+                                {% for item in items %}
+                                    <strong>{{ item["key"] }} :</strong><br />
+                                    {% if item["value"]|length > 0 %}
+                                        {% for value in item["value"] %}
+                                             {{ value }}<br />
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <strong>Ancesstor Data Not Found</strong>
+                    {% endif %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="offspring">
+                    <br />
+                    {% set num = 1 %}
+                    {% if offspring|length > 0 %}
+                        Found : {{ offspring|length }} Data(s)<br /><br />
+                        {% for items in offspring %}
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="badge">{{ num }}</span>
+                                    {% set num = num + 1 %}
+                                </div>
+                                <div class="panel-body">
+                                {% for item in items %}
+                                    <strong>{{ item["key"] }} :</strong><br />
+                                    {% if item["value"]|length > 0 %}
+                                        {% for value in item["value"] %}
+                                             {{ value }}<br />
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <strong>Offspring Data Not Found</strong>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 {% endblock %}
