@@ -1,42 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-    {% if model %}
-    <div class="docs-content">
-        {% set number = 1 %}
-        {% for row in model %}
-            {% if number == 1 %}
-                <table class="table_list">
-                    <tr>
-                        <td>Id</td>
-                        <td>{{ row["id"] }}</td>
-                    <tr>
-                    <tr>
-                        <td>Ontology</td>
-                        <td>{{ row["aspects"] }}</td>
-                    <tr>
-                    <tr>
-                        <td>Synonyms</td>
-                        <td>
-                            {% for rowdata in model %}
-                                {{ rowdata["synonym"] }} <br />
-                            {% endfor %}
-                        </td>
-                    <tr>
-                    <tr>
-                        <td>Definition</td>
-                        <td>{{ row["description"] }}</td>
-                    <tr>
-                    <tr>
-                        <td>Comment</td>
-                        <td>{{ row["comment"] }}</td>
-                    <tr>
-                </table>
-            {% endif %}
-            {% set number = number + 1 %}
-        {% endfor %}
-    </div>
+    {% if state %}
+        {% if result|length > 0 %}
+            {% for item in result %}
+                <strong>{{ item["key"] }} :</strong><br />
+                {% if item["value"]|length > 0 %}
+                    {% for value in item["value"] %}
+                        {{ value }}<br />
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     {% else %}
-        <h3>Data Not Found</h3>
+        <strong>Not Found</strong>
     {% endif %}
-<a href="/" class="btn btn-default">Back</a>
 {% endblock %}
