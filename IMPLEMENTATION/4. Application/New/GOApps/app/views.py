@@ -1,8 +1,13 @@
 from flask import render_template, flash, redirect, request
+from fastsemsim.Ontology import ontologies
+from fastsemsim.SemSim import CosineSemSim
+from fastsemsim.Ontology import AnnotationCorpus
+from fastsemsim import data
 from app import app
 from .forms import SearchForm
+from .forms import SimilarityForm
 import rpy2.robjects as robjects
-import pdb
+import app.model.TermModel as TermModel
 
 @app.route('/')
 @app.route('/index', methods=['GET','POST'])
@@ -25,6 +30,7 @@ def result():
   parent_result = []
   anccestor_result = []
   offspring_result = []
+
   if ontology != None and query != None and ontology != "" and query != "":
     child_result, message = get_go_childrens(ontology, query)
     parent_result, message = get_go_parents(ontology, query)
@@ -38,14 +44,69 @@ def result():
 
   return render_template('result.html', form=form, state = state, model = dict_terms, result = result, message = message)
 
+@app.route('/similarity', methods=['GET','POST'])
+def similarity():
+    form = SimilarityForm()
+    first_go_id = form.first_go_id.data
+    second_go_id = form.second_go_id.data
+    similarity_function = form.similarity_function.data
+
+    first_state, first_dict_terms, first_message = get_go_term(first_go_id)
+    second_state, second_dict_terms, second_message = get_go_term(second_go_id)
+
+    state = False
+    if first_state != False and second_state != False:
+        state = True
+
+    similarity_result = None
+    if first_go_id != '' and first_go_id != None and second_go_id != '' and second_go_id != None    :
+        similarity_obj = get_go_cosine_similarity_object()
+        similarity_result = count_cosine_similarity(first_dict_terms,second_dict_terms,similarity_obj)
+
+    return render_template('similarity.html', form = form, first_go = first_dict_terms, second_go = second_dict_terms, state = state, similarity_result = similarity_result)
+
 @app.route('/detail', methods=['GET','POST'])
 def detail():
   id = request.args.get('id')
   state, dict_terms, message = get_go_term(id)
   return render_template('detail.html',id = id, state = state, result = dict_terms, message = message)
 
-#private method
+#private method, need to refactor to another class
 #Get childrens of a term
+def count_cosine_similarity(first_go,second_go,similarity_obj):
+    result = []
+    if similarity_obj :
+        if len(first_go) > 0:
+            for item in first_go:
+                item_similarity = []
+                value_first = ''
+                if len(item["value"]) > 0:
+                    for value in item["value"]:
+                        value_first = value_first + value + ' '
+
+                value_second = ''
+                for item_second in second_go:
+                    if item["key"] == item_second["key"]:
+                        if len(item_second["value"]) > 0:
+                            for value in item_second["value"]:
+                                value_second = value_second + value + ' '
+                item_similarity.append(item["key"])
+                item_similarity.append(similarity_obj._SemSim(value_first, value_second))
+                result.append(item_similarity)
+    return result
+
+def get_go_cosine_similarity_object():
+    ontology_type = 'GeneOntology'
+    ignore_parameters = {'ignore':{}}
+    source_type = 'obo'
+    source = None
+
+    ontology = ontologies.load(source=source, source_type = source_type, ontology_type = ontology_type, parameters=ignore_parameters)
+    ac = AnnotationCorpus.AnnotationCorpus(ontology)
+
+    cosine = CosineSemSim(ontology,ac)
+    return cosine
+
 def get_go_childrens(go_term_ontology, go_term):
   robjects.r('''library(GO.db)''')
 
